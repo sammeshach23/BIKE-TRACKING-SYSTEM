@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="148.0" prefWidth="279.0" style="-fx-background-color: #D5d5d8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="18.0" layoutY="16.0" prefHeight="117.0" prefWidth="244.0" style="-fx-background-color: #Bfc6cb; -fx-background-radius: 30;" />
+      <ImageView fitHeight="76.0" fitWidth="80.0" layoutX="33.0" layoutY="36.0" opacity="0.31" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Ipahe.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="109.0" layoutY="51.0" text="Invalid">
+         <font>
+            <Font name="Cooper Black" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
